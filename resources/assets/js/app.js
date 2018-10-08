@@ -32,6 +32,8 @@ Vue.use(VueProgressBar,{
 });
 
 
+//event and listeners
+window.Fire =new Vue();
 
 let routes = [
     { path: '/dashboard', component: require('./components/Dashboard.vue') },
